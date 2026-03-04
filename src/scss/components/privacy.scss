@@ -25,22 +25,22 @@
 }
 
 .policy-title {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 1.4;
-  color: #fff;
+  color: #131313;
   margin-bottom: 16px;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
 .policy-text {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.4;
   color: #131313;
 
@@ -59,9 +59,9 @@
 }
 
 .policy-item {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.4;
   color: #131313;
   margin-bottom: 8px;

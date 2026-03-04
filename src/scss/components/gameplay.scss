@@ -11,8 +11,8 @@
   margin-right: auto;
 
   @include media(desktop) {
-    padding-top: 104px;
-    padding-bottom: 104px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     max-width: 1440px;
   }
 }
@@ -23,71 +23,86 @@
 }
 
 .gameplay-content-wrapper {
-  box-shadow: 8px 8px 16px 0 rgba(102, 93, 93, 0.12);
-  background: linear-gradient(45deg, #8916c3 23.43%, #c868eb 100%);
-  border-radius: 36px;
-  padding: 40px 16px 348px;
-  position: relative;
-
   @include media(desktop) {
-    padding: 64px;
   }
 }
 
 .gameplay-title {
-  color: #fff;
+  @include media(desktop) {
+  }
+}
+
+.gameplay-text {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  text-align: center;
+  color: #343434;
+  margin-bottom: 48px;
 
   @include media(desktop) {
+    font-size: 24px;
+    max-width: 624px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
   }
 }
 
 .gameplay-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  align-items: center;
+  gap: 24px;
 
   @include media(desktop) {
-    max-width: 640px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 32px;
   }
 }
 
 .gameplay-list-item {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 14px;
+  gap: 32px;
+  width: 100%;
+  max-width: 236px;
+
+  @include media(desktop) {
+    max-width: 236px;
+  }
+}
+
+.gameplay-img-wrapper {
+  background: #f2f2f2;
+  border-radius: 40px;
+  padding: 28px 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @include media(desktop) {
   }
 }
 
-.gameplay-icon {
-  min-width: 12px;
-
+.gameplay-img {
   @include media(desktop) {
   }
 }
 
 .gameplay-item-text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
-  color: #fff;
+  text-align: center;
+  color: #207453;
 
   @include media(desktop) {
     font-size: 18px;
-  }
-}
-
-.gameplay-img {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  @include media(desktop) {
-    left: auto;
-    right: 0;
-    transform: none;
   }
 }
