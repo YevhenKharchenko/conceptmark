@@ -1,0 +1,104 @@
+.contact-section {
+  @include media(desktop) {
+  }
+}
+
+.contact-bg-wrapper {
+  padding-top: 64px;
+  padding-bottom: 80px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    max-width: 1440px;
+  }
+}
+
+.contact-container {
+  padding: 0;
+
+  @include media(desktop) {
+    padding: 0 176px;
+  }
+}
+
+.contact-content-wrapper {
+  box-shadow: 8px 8px 16px 0 rgba(102, 93, 93, 0.12);
+  border-radius: 36px;
+  padding: 250px 30px 40px;
+  background-image: url(../img/contact/contact-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding: 64px;
+    background-image: url(../img/contact/contact-bg-desk.png);
+  }
+}
+
+.contact-text-wrapper {
+  background: #fff;
+  border-radius: 36px;
+  padding: 24px;
+
+  @include media(desktop) {
+    max-width: max-content;
+    margin-left: auto;
+  }
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 0;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  color: #505050;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+    font-size: 18px;
+  }
+}
+
+.contact-link {
+  background: #225498;
+  border-radius: 12px;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #fff;
+  word-break: break-all;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    font-size: 20px;
+  }
+}
+
+.arrow-icon {
+  min-width: 24px;
+
+  @include media(desktop) {
+  }
+}
