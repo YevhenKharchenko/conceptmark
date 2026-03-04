@@ -60,7 +60,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffce10;
+  background: #6cca24;
   padding: 16px 32px;
   border-radius: 50px;
   font-family: 'Montserrat', sans-serif;
@@ -75,7 +75,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: #efc215;
+    background: #5bb01a;
   }
 
   @include media(desktop) {
